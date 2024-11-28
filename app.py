@@ -122,9 +122,7 @@ import nltk
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 
-# Download required NLTK resources
-nltk.download('punkt')  # for word_tokenize
-nltk.download('stopwords')  # for stopwords
+
 
 # Title for the app
 st.title("Travel Suggestion App")
